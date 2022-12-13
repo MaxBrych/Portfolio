@@ -1,4 +1,3 @@
-import React from "react";
 import HeaderNavbar from "./components/Header";
 import Image from "next/image";
 import pfp from "../public/pfp-gray.png";
