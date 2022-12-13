@@ -23,7 +23,7 @@ const HeaderNavbar = () => {
         </li>
         <li>
           <Link
-            href="./Blog"
+            href="/"
             className="px-3 py-1 text-gray-200 rounded-full hover:bg-gray-700"
           >
             Blog
