@@ -20,7 +20,7 @@ const Linklist = () => {
   return (
     <div className="space-y-4">
       {data.map((obj) => (
-        <Link title={obj.title} icon={obj.icon} link={obj.link} />
+        <Link key={index} title={obj.title} icon={obj.icon} link={obj.link} />
       ))}
     </div>
   );
