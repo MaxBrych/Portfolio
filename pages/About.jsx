@@ -6,10 +6,10 @@ import Linklist from "./components/Linklist";
 export default function About() {
   return (
     <div>
-      <main className="flex px-4 bg-gray-900 align-center">
+      <main className="flex justify-center px-4 bg-gray-900 align-center">
         <section className="flex-col max-w-xl min-h-screen font-mono align-center">
           <HeaderNavbar />
-          <div className="flex items-baseline justify-between">
+          <div className="flex items-baseline justify-between my-4">
             <Image src={pfp} height={96} width={96} alt="pfp" />
             <a
               href=""

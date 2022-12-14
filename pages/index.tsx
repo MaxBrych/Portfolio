@@ -12,8 +12,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex-col justify-center min-h-screen font-mono bg-gray-900">
-        <section className="w-640">
+      <main className="flex justify-center min-h-screen px-4 font-mono bg-gray-900 ">
+        <section className="max-w-xl ">
           <HeaderNavbar />
           <h1 className={styles.title}>
             Welcome to <a href="https://nextjs.org">Next.js!</a>
